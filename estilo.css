@@ -1,0 +1,81 @@
+/*¿COMO PUEDO CENTAR TODO EL CONTENIDO?
+VERIFICAR SI PUEDO USAR MARGIN 0 AUTO
+
+BUSCAR PAGINA PARA ICONOS EN LA PAGINA*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /*margin: 0 auto;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+main{
+    height: 100vh;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.363);
+    
+}
+
+.formulario-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-boton{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.boton-enviar { /*¿PORQUE NO ME DEJA DARLE FORMATO A LOS BOTONES?*/
+    background-color: rgba(67, 216, 67, 0.795);
+    border-radius: 5px;
+}
+
+.boton-cancelar{
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+/*¿COMO PUEDO DARLE EL MISMO FORMATO A LOS INPUT EN TAMAÑO?*/
+
+.mensaje{
+    background-color: chocolate;
+}
+.footer{
+    position:absolute; /*¿Esta bien si hago de esta manera el footer?*/
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
